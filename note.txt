@@ -1,0 +1,2 @@
+# flag arkavidia 7
+g++ -x c++ -std=c++11 -Wall -O2 -static -pipe file.cpp && time ./a.out

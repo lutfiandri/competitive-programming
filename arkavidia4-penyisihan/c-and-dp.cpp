@@ -1,13 +1,16 @@
 #include <bits/stdc++.h>
+#define MAX 200
 using namespace std;
 
 typedef long long ll;
 typedef vector<ll> vl;
 
 vl A;
+const int n_memo = MAX + 1;
+ll memo[n_memo][n_memo];
 
 ll hasiland(int l, int r, ll lnr) {
-    // cout << "lnr " << lnr << endl;
+    cout << "lnr " << lnr << endl;
     // blabla
     ll result;
     if (r - l >= 1) {
@@ -22,23 +25,6 @@ int main() {
     int T, N, Q;
     ll temp;
     cin >> T;
-    // for (int i = 0; i < T; ++i) {
-    //     cin >> N;
-    //     ll A[N];
-    //     for (int j = 0; j < N; ++j) {
-    //         cin >> A[j];
-    //     }
-
-    //     cin >> Q;
-    //     int l, r;
-    //     for (int j = 0; j < Q; j++) {
-    //         cin >> l >> r;
-    //         --l;
-    //         --r;
-    //         cout << hasiland(l, r, A, A[l]) << endl;
-    //     }
-    //     //     cout << endl << (7 & 4 & 5 & 6 & 31) << endl;
-    // }
 
     for (int i = 0; i < T; ++i) {
         cin >> N;
