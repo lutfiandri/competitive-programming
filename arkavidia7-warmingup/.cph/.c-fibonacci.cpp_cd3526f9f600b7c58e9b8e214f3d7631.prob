@@ -1,0 +1,1 @@
+{"name":"Local: c-fibonacci","url":"/home/lutfiandri/Documents/cp/arkavidia7-warmingup/c-fibonacci.cpp","tests":[{"id":1611978225998,"input":"2\n1\n5","output":"1\n5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/lutfiandri/Documents/cp/arkavidia7-warmingup/c-fibonacci.cpp","group":"local","local":true}
